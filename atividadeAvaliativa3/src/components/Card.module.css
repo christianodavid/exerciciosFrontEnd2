@@ -1,0 +1,29 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  padding: 1rem 1.5rem;
+  border-radius: 9px;
+  color: #fff;
+}
+
+.student,
+.status {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+}
+
+.grade {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.passed {
+  background-color: #008000;
+}
+
+.failed {
+  background-color: #ff0000;
+}
