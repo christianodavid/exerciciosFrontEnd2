@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Mada:wght@200..900&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-family: "Mada", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.title {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.05em;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group__label {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.025em;
+}
+
+.input-group__input,
+.submit-button {
+  padding: 0.5rem;
+  border: 1px solid #000;
+  border-radius: 9px;
+  font-size: 0.875rem;
+}
+
+.submit-button {
+  cursor: pointer;
+}
+
+#form__answer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
